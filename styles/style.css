@@ -67,9 +67,10 @@ nav ul a {
     width: 862px;
     height: 225px;
     text-align: center;
-    margin-left: 529px;
+    /* margin-left: 529px;
     margin-right: 529px;
-    margin-bottom: 32px;
+    margin-bottom: 32px; */
+    margin: auto auto;
 }
 
 .header-title {
@@ -86,6 +87,7 @@ nav ul a {
 .header .button {
     display: flex;
     justify-content: center;
+    margin-top: 33px;
     margin-bottom: 50px;
 }
 
@@ -122,7 +124,7 @@ nav ul a {
 
 /* Architect Features Styles */
 
-.architect-features{
+.architect-features {
     display: flex;
     justify-content: center;
     gap: 146px;
@@ -153,3 +155,123 @@ nav ul a {
     color: #131313;
 }
 
+
+/* Some Fates Section Styles */
+
+.facts-section {
+    margin-top: 130px;
+    margin-bottom: 180px;
+}
+
+.facts-section .common-title {
+    margin-left: 240px;
+}
+
+.facts-section .common-description {
+    margin-left: 240px;
+    width: 542px;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    margin-top: 100px;
+}
+
+.facts-info {
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    /* padding: 30px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.facts-info .number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.facts-info .fact-des {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* Singup Section Styles */
+
+.signup{
+    background-color: #131313;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 100px;
+}
+
+.signup-info{
+    margin-left: 300px;
+    padding-top: 50px;
+    
+}
+
+.signup-info p{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.signup-info h2{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.signup-info #email{
+    border: 0;
+    width: 300px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+/* Sponspors Section Styles */
+
+.sponsors-info {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsors-images {
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+}
+
+/* Footer Section Styles */
+
+.footer {
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 60px auto; */
+    margin: 130px auto 216px;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
