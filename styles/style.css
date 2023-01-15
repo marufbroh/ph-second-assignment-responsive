@@ -1,11 +1,9 @@
 body {
     margin: 0 auto;
-    /* max-width: 1440px; */
     font-family: 'Work Sans', sans-serif;
 }
 
 .header {
-    /* width: 100%; */
     height: 1322px;
     background: rgba(255, 144, 14, 0.1);
     margin-bottom: 130px;
@@ -40,10 +38,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding-top: 50px; */
     margin-left: 228px;
     margin-right: 240px;
-    /* gap: 673px; */
 }
 
 ul {
@@ -121,7 +117,6 @@ nav ul a {
 
 .architect-info {
     width: 586px;
-    /* margin-right: 200px; */
 }
 
 .architect-info .common-title {
@@ -144,6 +139,12 @@ nav ul a {
     color: #131313;
 }
 
+.service-ellipsis {
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .architect-image img {
     width: 100%;
 }
@@ -154,12 +155,9 @@ nav ul a {
     background: #FF900E;
     border-radius: 8px;
     text-align: center;
-    /* padding-top: 35px; */
     position: absolute;
     left: 880px;
     top: 3150px;
-    /* bottom: 0px;
-    left: -45px; */
 }
 
 .year-exprience h2 {
@@ -204,7 +202,6 @@ nav ul a {
     height: 241.83px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    /* padding: 30px; */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -212,7 +209,7 @@ nav ul a {
 
 }
 
-.facts-info:hover{
+.facts-info:hover {
     transform: rotate(45deg) scale(1.45);
     transition: transform 3s;
     background-color: #ff8f0eee;
@@ -291,7 +288,6 @@ nav ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 60px auto; */
     margin: 130px auto 216px;
 }
 
@@ -299,4 +295,148 @@ nav ul a {
     font-weight: 400;
     font-size: 20px;
     color: #424242;
+}
+
+
+
+
+
+
+
+/* Responsive Media Queries */
+
+@media only screen and (max-width:576px) {
+
+    .header {
+        height: auto;
+    }
+
+    nav {
+        flex-direction: column;
+        border: 1px solid red;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #ff8f0e94;
+    }
+
+    nav .common-title {
+        font-size: 30px;
+    }
+
+    ul {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        gap: 15px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .brand-slogan {
+        width: 100%;
+    }
+
+    .header-title {
+        font-size: 40px;
+    }
+
+    .btn-primary {
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+
+    }
+
+    .header .image img {
+        width: 100%;
+    }
+
+    .team-features {
+        flex-direction: column;
+    }
+
+    .team-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-info {
+        width: 100%;
+        color: #727272;
+    }
+
+    .team-info-title {
+        width: 300px;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .architect-features {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .architect-info {
+        width: 75%;
+    }
+
+    .service {
+        width: 100%;
+
+    }
+
+    .year-exprience {
+        left: 100px;
+        top: 4815px;
+    }
+
+    .facts-section {
+        margin-top: 300px;
+    }
+
+    .facts-section .common-title {
+        margin-left: 20px;
+    }
+
+    .facts-section .common-description {
+        margin-left: 20px;
+        width: 442px;
+    }
+
+    .facts {
+        flex-direction: column;
+        gap: 35px;
+        margin-top: 100px;
+    }
+
+    .signup-info {
+        margin-left: 20px;
+    }
+
+    .signup-info p {
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .signup-info h2 {
+        color: white;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .sponsors-images {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .copyright {
+        font-weight: 400;
+        font-size: 14px;
+    }
 }
