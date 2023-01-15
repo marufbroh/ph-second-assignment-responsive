@@ -1,10 +1,3 @@
-/* *{
-    margin: 0 auto;
-    padding: 0 auto;
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
-} */
-
 body {
     margin: 0 auto;
     /* max-width: 1440px; */
@@ -16,16 +9,6 @@ body {
     height: 1322px;
     background: rgba(255, 144, 14, 0.1);
     margin-bottom: 130px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* padding-top: 50px; */
-    margin-left: 228px;
-    margin-right: 240px;
-    /* gap: 673px; */
 }
 
 .common-title {
@@ -51,6 +34,18 @@ nav {
     border-radius: 8px;
 }
 
+/* Nav Section Styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 50px; */
+    margin-left: 228px;
+    margin-right: 240px;
+    /* gap: 673px; */
+}
+
 ul {
     width: 477px;
     display: flex;
@@ -63,13 +58,12 @@ nav ul a {
     color: black;
 }
 
+/* Slogan and Header Image Section Styles */
+
 .brand-slogan {
     width: 862px;
     height: 225px;
     text-align: center;
-    /* margin-left: 529px;
-    margin-right: 529px;
-    margin-bottom: 32px; */
     margin: auto auto;
 }
 
@@ -77,12 +71,6 @@ nav ul a {
     font-weight: 700;
     font-size: 64px;
 }
-
-/* .header-description {
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
-} */
 
 .header .button {
     display: flex;
@@ -155,6 +143,10 @@ nav ul a {
     color: #131313;
 }
 
+.architect-image img {
+    width: 100%;
+}
+
 
 /* Some Fates Section Styles */
 
@@ -207,32 +199,32 @@ nav ul a {
 
 /* Singup Section Styles */
 
-.signup{
+.signup {
     background-color: #131313;
     width: 100%;
     height: 350px;
     margin-bottom: 100px;
 }
 
-.signup-info{
+.signup-info {
     margin-left: 300px;
     padding-top: 50px;
-    
+
 }
 
-.signup-info p{
+.signup-info p {
     color: white;
     font-weight: 600;
     font-size: 16px;
 }
 
-.signup-info h2{
+.signup-info h2 {
     color: white;
     font-weight: 700;
     font-size: 30px;
 }
 
-.signup-info #email{
+.signup-info #email {
     border: 0;
     width: 300px;
     height: 64px;
