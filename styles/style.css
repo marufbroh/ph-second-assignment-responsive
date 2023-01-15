@@ -1,0 +1,155 @@
+/* *{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+} */
+
+body {
+    margin: 0 auto;
+    /* max-width: 1440px; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    /* width: 100%; */
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+    margin-bottom: 130px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 50px; */
+    margin-left: 228px;
+    margin-right: 240px;
+    /* gap: 673px; */
+}
+
+.common-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.common-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
+ul {
+    width: 477px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.brand-slogan {
+    width: 862px;
+    height: 225px;
+    text-align: center;
+    margin-left: 529px;
+    margin-right: 529px;
+    margin-bottom: 32px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+/* .header-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+} */
+
+.header .button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.header .image {
+    display: flex;
+    justify-content: center;
+}
+
+/* Team Features Styles */
+
+.team-features {
+    display: flex;
+    justify-content: center;
+    gap: 73px;
+    align-items: center;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.team-info {
+    width: 537px;
+    color: #727272;
+}
+
+.team-info-title {
+    width: 468px;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+/* Architect Features Styles */
+
+.architect-features{
+    display: flex;
+    justify-content: center;
+    gap: 146px;
+    margin-top: 130px;
+}
+
+.architect-info {
+    width: 586px;
+}
+
+.architect-info .common-title {
+    width: 470px;
+    padding-left: 21px;
+    border-left: 5px solid #FF900E;
+}
+
+.service {
+    width: 586px;
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.service-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
