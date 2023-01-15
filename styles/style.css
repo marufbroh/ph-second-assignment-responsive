@@ -383,6 +383,10 @@ nav ul a {
         width: 75%;
     }
 
+    .architect-info .common-title{
+        font-size: 1.8em;
+    }
+
     .service {
         width: 100%;
 
