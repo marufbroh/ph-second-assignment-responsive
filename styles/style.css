@@ -149,6 +149,8 @@ nav ul a {
     width: 100%;
 }
 
+/* Experience Section */
+
 .year-exprience {
     width: 342px;
     height: 200px;
@@ -303,7 +305,7 @@ nav ul a {
 
 
 
-/* Responsive Media Queries */
+/*---------------- Responsive Media Queries------------------ */
 
 @media only screen and (max-width:576px) {
 
@@ -386,9 +388,14 @@ nav ul a {
 
     }
 
+    .experience {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .year-exprience {
-        left: 100px;
-        top: 4815px;
+        position: static;
     }
 
     .facts-section {
