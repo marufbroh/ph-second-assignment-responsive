@@ -115,12 +115,13 @@ nav ul a {
 .architect-features {
     display: flex;
     justify-content: center;
-    gap: 146px;
+    gap: 200px;
     margin-top: 130px;
 }
 
 .architect-info {
     width: 586px;
+    /* margin-right: 200px; */
 }
 
 .architect-info .common-title {
@@ -147,6 +148,32 @@ nav ul a {
     width: 100%;
 }
 
+.year-exprience {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    /* padding-top: 35px; */
+    position: absolute;
+    left: 880px;
+    top: 3150px;
+    /* bottom: 0px;
+    left: -45px; */
+}
+
+.year-exprience h2 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.year-exprience p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: -50px;
+}
 
 /* Some Fates Section Styles */
 
@@ -183,6 +210,12 @@ nav ul a {
     justify-content: center;
     align-items: center;
 
+}
+
+.facts-info:hover{
+    transform: rotate(45deg) scale(1.45);
+    transition: transform 3s;
+    background-color: #ff8f0eee;
 }
 
 .facts-info .number {
